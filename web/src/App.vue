@@ -84,7 +84,7 @@ export default {
 				}))
 		if (!ok) return
 
-		const { drives } = await api.get('/~_~_gdindex/drives').json()
+		const { drives } = await api.get('/_gd_/drives').json()
 		this.drives = [{ text: this.$t('mainDrive'), value: 'root' }].concat(
 			drives.map(d => ({
 				value: d.id,
