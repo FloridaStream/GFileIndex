@@ -37,7 +37,7 @@
 					text
 					class="text-none hidden-sm-and-down"
 					tag="a"
-					href="https://github.com/FloridaStream/GDIndex"
+					href="https://github.com/FloridaStream/GFileIndex"
 					target="_blank"
 				>
 					<v-icon>mdi-github-circle</v-icon>&nbsp;GitHub</v-btn
