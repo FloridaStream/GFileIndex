@@ -1,9 +1,9 @@
 self.props = {
-	title: 'GDIndex',
+	title: 'GDDrive File List - Castle',
 	default_root_id: 'root',
-	client_id: '202264815644.apps.googleusercontent.com',
-	client_secret: 'X4Z3ca8xfWDb1Voo-F9a7ZxJ',
-	refresh_token: '',
+	client_id: 'XXXXXXXXXXXX.apps.googleusercontent.com',
+	client_secret: 'XXXXXXXXXXXXXXXXXXXXXXXX',
+	refresh_token: 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX',
 	auth: false,
 	user: '',
 	pass: '',
@@ -451,7 +451,7 @@ self.props = {
 
     if (path.startsWith('/_gd_/resources/')) {
       const remain = path.replace('/_gd_/resources/', '');
-      const r = await fetch(`https://raw.githubusercontent.com/maple3142/GDIndex/master/web/dist/${remain}`);
+      const r = await fetch(`https://raw.githubusercontent.com/FloridaStream/GFileIndex/master/web/dist/${remain}`);
       return new Response(r.body, {
         headers: {
           'Content-Type': mime.getType(remain) + '; charset=utf-8',
